@@ -19,9 +19,11 @@ export default function HealthPage() {
           title="Venue health"
           lede="Live engine telemetry — per-shard order/trade counters, TPS, queue depth, journal bytes, deterministic state hash and exact cash conservation."
         />
-        <PanelErrorBoundary title="Venue health">
-          <VenueHealthCard />
-        </PanelErrorBoundary>
+        <div className="flex min-h-[calc(100dvh-240px)] flex-col">
+          <PanelErrorBoundary title="Venue health">
+            <VenueHealthCard />
+          </PanelErrorBoundary>
+        </div>
       </PageScroll>
     </RequireAdmin>
   );
