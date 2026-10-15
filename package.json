@@ -1,0 +1,27 @@
+{
+  "name": "ns-venue-terminal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NS·VENUE — professional dark-mode 0DTE options trading terminal for the ns-venue matching engine (sidebar navigation, dedicated sections for order book, calls & puts, execution, positions, fills, sessions and venue admin).",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "lucide-react": "^0.525.0",
+    "next": "16.3.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.0"
+  }
+}
